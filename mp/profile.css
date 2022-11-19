@@ -1,0 +1,123 @@
+.profilemain {
+    color: text;
+    text-indent: 5%;
+    background-color: #c5dcf0;
+    border-top-left-radius: 15px;
+    margin: 5% 70% 0% 0%;
+    width: 35%;
+    height: 120%;
+    position: fixed;
+    top: 25%;
+}
+
+td,
+th {
+    padding: 15px;
+    border-bottom: 0.3px solid white;
+    text-align: center;
+}
+
+td {
+    border-right: 0.3px solid white;
+}
+
+.nav-profile {
+    position: sticky;
+    top: 20px;
+    background-color: #c3d1dd;
+    text-indent: 75%;
+    padding: 14px;
+    border-top-left-radius: 20px;
+
+}
+
+.nav-profile li {
+    display: inline;
+    background-color: rgb(186, 201, 204);
+    margin: 1%;
+    padding: 9px;
+}
+
+.nav-profile li a:link {
+    text-decoration: none;
+}
+
+.nav-profile li:hover {
+    padding: 15px;
+    transition: 0.3s padding;
+    background-color:rgb(169, 241, 52);
+}
+
+.photo {
+    width: 8%;
+    height: 20%;
+    background-color: red;
+    box-shadow: 2px 2px 4px black;
+    position: sticky;
+    top: 70px;
+
+}
+
+.education { 
+    width: 35%;
+    position: relative;
+    left: 35%;
+    background-color: rgb(215, 248, 230);
+    margin: 20px;
+}
+
+.profile td {
+    padding-right: 150px;
+
+}
+
+.thead {
+    background-color: blue;
+    color: red;
+    text-align: center;
+    border:4px inset white;
+
+}
+body{
+
+background-color:rgb(196, 196, 223);
+}
+#li a {
+
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#li {
+    display: inline;
+    margin: 14px;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+#li:hover {
+    background-color: gray;
+    padding: 13px;
+    border-radius: 5px;
+    color: white;
+    transition: .2s padding;
+}
+
+button {
+    padding: 10px
+}
+
+button:hover {
+    padding: 13px;
+    transition: .2s padding;
+}
+
+#li a:hover,
+li {
+    color: white;
+}

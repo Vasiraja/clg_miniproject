@@ -1,0 +1,35 @@
+.companyuserdata {
+    line-height: 520%;
+     top:50px;
+    border:0.1px solid black;
+}
+body{
+    background-color:rgb(218, 216, 214);
+}
+
+input[type=text],
+input[type=date],
+input[type=number],
+#role {
+position:relative;
+ border:2px solid black;
+margin:35px;
+width:500px;
+height:40px;
+
+border-radius:10px;
+
+}
+
+ 
+
+.history {
+    position:relative;
+    left:100px;
+    display: inline;
+    right:30px;
+}
+#label
+{
+    left:35px;
+}
